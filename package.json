@@ -1,0 +1,19 @@
+{
+  "name": "helloconsoleapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "hi": "./bin/hello.js"
+  },
+  "dependencies": {
+    "configstore": "^5.0.0",
+    "inquirer": "^7.0.0"
+  }
+}
